@@ -1,0 +1,56 @@
+/*Brandon Waldemar Martinez Cano*/
+
+/*Estilos generales del cuerpo de la pagina*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f2f5;
+    font-family: sans-serif;
+    margin:0;
+}
+/*Estilos de la tarjeta*/
+.card {
+    width: 240px;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px;
+}
+/*Estilo de titulo*/
+h3{
+    margin: 0;
+    color:#333;
+    font-size: 22px;
+}
+/*Estilo de la ciudad*/
+.info{
+    color:#888;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+/*Estilo de la descripcion*/
+.bio {
+    color:#555;
+    font-size: 15px;
+    margin:20px 0;
+    line-height: 1.4;
+}
+/*Estilo del boton*/
+button {
+    width: 100%;
+    padding:12px;
+    background:#ff4b6e;
+    color:white;
+    border:none;
+}
+
+/*Efecto hover del boton*/
+button:hover {
+    background: #e63956;
+    transform: scale(1.02);
+    transition: ease 0.3s;
+}
