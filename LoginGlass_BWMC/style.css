@@ -1,0 +1,72 @@
+/*Brandon Waldemar Martinez Cano*/
+body {
+    margin: 0;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(45deg,#FC466B,#3f5efb);
+}
+/*Estilo del contenedor de vidrio*/
+.glass-card {
+    width: 320px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+    text-align: center;
+    color:white;
+}
+
+/*Estilo del titulo*/
+h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/*Estilo de campos de entrada*/
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border:none;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    outline:none;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+input:placeholder {
+    color: rgba(255,255,255,0.7);
+}
+input:focus{
+    background: rgba(255,255,255,0.4);
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background:white;
+    color: #ef5efb;
+    font-weight: bold;
+    font-size:16px;
+    cursor:pointer;
+    transition: 0.2s ;
+    transform: (1.05);
+}
+
+button:hover{
+    transform: (1.05);
+    background: #f0f0f0;
+}
